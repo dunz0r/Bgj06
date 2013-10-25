@@ -1,9 +1,9 @@
-TARGET=mining
+TARGET=main
 CC=gcc
 CXX=g++
 # Heh.
 STD=-std=gnu99
-CFLAGS= -std=gnu99 -Wall -pedantic
+CFLAGS= -std=gnu99 -Wall -pedantic -O2
 LDFLAGS=-L/usr/lib 
 LIBS=-lm
 ALLEGROLIBS=-lallegro -lallegro_opengl -lallegro_image -lallegro_ttf -lallegro_primitives -lallegro_audio -lallegro_acodec -lallegro_ttf -lallegro_font
