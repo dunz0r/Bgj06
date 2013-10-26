@@ -12,7 +12,7 @@
 #include <math.h>
 
 const float fps = 60;
-float levelSpeed = 4;
+float levelSpeed = 8;
 
 //block class, maybe circular
 class cBlock
