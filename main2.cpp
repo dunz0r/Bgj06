@@ -201,7 +201,7 @@ int main(int argc, char **argv )
 				//player collision check
 				for(int i = 0;i<oLevel.blocknum;i++)
 				{
-					oPlayer.checkCollision(oLevel.oBlock[i].x,oLevel.oBlock[i].y);
+					oPlayer.checkCollision(oLevel.oBlock[i].x,oLevel.oBlock[i].y,key);
 				}
 				if(al_key_down(&key,ALLEGRO_KEY_ESCAPE))
 				{
