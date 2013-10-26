@@ -32,7 +32,7 @@ class cBlock
 class cLevel
 {
 	public:
-		float blockx,blocky;
+		float blockx,blocky,blocksin;
 		int blocknum, blockamount;
 		cBlock oBlock[100];
 		bool makeLevel;
@@ -43,9 +43,11 @@ class cLevel
 			blockamount = 100;
 			blockx = 0;
 			blocky = 600;
+			blocksin = 0;
 		}
 		void createLevel()
 		{
+			blocksin +=0.02;
 			if(makeLevel == true)
 			{
 				if(blocknum < blockamount)
