@@ -31,8 +31,10 @@ class cLevel
 		float blockx,blocky;
 		int blocknum, blockamount;
 		cBlock oBlock[100];
+		bool makeLevel;
 		void init()
 		{
+			makeLevel = true;
 			blocknum = 0;
 			blockamount = 100;
 			blockx = 0;
