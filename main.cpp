@@ -1,4 +1,4 @@
-//TOWERJAM 2013 CONCEPT
+//Bacon game jam 06
 
 #include <allegro5/allegro.h>
 #include <stdio.h>
