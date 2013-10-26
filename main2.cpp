@@ -174,6 +174,7 @@ class cRainbow
 			cx = icx;
 			ry = iry;
 			rx = irx;
+			cy = 220;
 			thickness = 18.0;
 		}
 
