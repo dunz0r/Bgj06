@@ -53,7 +53,7 @@ int main(int argc, char **argv )
     al_start_timer(timer);
     al_reserve_samples(1000);
     
-    al_play_sample(
+    al_play_sample(sndSong,1.0,0.0,1,ALLEGRO_PLAYMODE_ONCE,NULL);
     //RUN
     while(1<2)
     {  
