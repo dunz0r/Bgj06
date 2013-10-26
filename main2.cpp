@@ -53,7 +53,13 @@ class cLevel
 				}
 			}
 		}
-	
+		void draw()
+		{
+			for(int i = 0; i<blocknum;i++)
+			{
+				oBlock[i].draw();
+			}
+		}
 };
 
 //player class, runs around and jumps
