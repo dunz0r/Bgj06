@@ -32,7 +32,8 @@ class cPlayer
 		dy = othery-y;
 		if(((dx*dx)+(dy*dy))< 32*32)//collision has happened
 		{
-			
+			gravity = 0;
+			vspeed = 0;
 		}
 	};
 	void run(ALLEGRO_KEYBOARD_STATE *key)
