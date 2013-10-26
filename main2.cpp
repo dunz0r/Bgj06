@@ -34,7 +34,7 @@ class cPlayer
 		{
 			
 		}
-	}
+	};
 	void run(ALLEGRO_KEYBOARD_STATE *key)
 	{
 		//vspeed += gravity;
