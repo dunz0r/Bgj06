@@ -180,7 +180,7 @@ class cRainbow
 
 		void run()
 		{
-			cx -= levelspeed;
+			cx -= levelSpeed;
 		}
 
 		void draw()
