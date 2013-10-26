@@ -44,17 +44,17 @@ class cPlayer
 			vspeed = 0;
 			hspeed = 2;
 		}
-		else if(al_key_down(key,ALLEGRO_KEY_LEFT))
+		if(al_key_down(key,ALLEGRO_KEY_LEFT))
 		{
 			vspeed = 0;
 			hspeed = -2;
 		}
-		else if(al_key_down(key,ALLEGRO_KEY_UP))
+		if(al_key_down(key,ALLEGRO_KEY_UP))
 		{
 			hspeed = 0;
-			vspeed = -2;
+			vspeed = -8;
 		}
-		else if(al_key_down(key,ALLEGRO_KEY_DOWN))
+		if(al_key_down(key,ALLEGRO_KEY_DOWN))
 		{
 			hspeed = 0;
 			vspeed = 2;
