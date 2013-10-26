@@ -83,8 +83,6 @@ int main(int argc, char **argv )
 			al_clear_to_color(al_map_rgb(0,0,0));
 
 			redraw = false;
-			al_wait_for_vsync();
-			//
 			al_flip_display();
 		}
 	}
