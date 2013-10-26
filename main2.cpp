@@ -172,7 +172,6 @@ class cRainbow
 			color[6] = al_map_rgb(143,0,255);
 			//rx = DISPLAY_WIDTH/2.0;
 			ry = 250.0;
-			cy = 260;
 			thickness = 18.0;
 		}
 
