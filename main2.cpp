@@ -111,7 +111,7 @@ int main(int argc, char **argv )
 			//Runny tunny
 			{
 		
-				oPlayer.run();
+				oPlayer.run(&key
 				if(al_key_down(&key,ALLEGRO_KEY_ESCAPE))
 				{
 					return 0;
