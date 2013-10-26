@@ -85,7 +85,11 @@ class cPlayer
 	{
 		dx = otherx-x;
 		dy = othery-y;
-		if(((dx*dx)+(dy*dy))< (64*32))//collision has happened
+		if(((dx*dx)+(dy*dy))< (48*48))
+		{
+			onGround = true;
+		}
+		if(((dx*dx)+(dy*dy))< (32*32))//collision has happened
 		{
 			if(al_key_down(key,ALLEGRO_KEY_UP))
 			{
