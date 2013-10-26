@@ -89,6 +89,10 @@ class cPlayer
 		{
 			onGround = true;
 		}
+		else
+		{
+			onGround = false;
+		}
 		if(((dx*dx)+(dy*dy))< (32*32))//collision has happened
 		{
 			if(al_key_down(key,ALLEGRO_KEY_UP))
