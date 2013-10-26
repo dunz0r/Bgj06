@@ -36,6 +36,7 @@ class cPlayer
 		}
 		else
 		{
+			vspeed = 0;
 			gravity = 0;
 		}
 		if(al_key_down(key,ALLEGRO_KEY_RIGHT))
