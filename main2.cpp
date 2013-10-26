@@ -13,6 +13,19 @@
 
 const float fps = 60;
 
+//block class, maybe circular
+class cBlock
+{
+	public:
+		float x,y;
+		void create()
+		{
+			
+		}	
+};
+
+
+//player class, runs around and jumps
 class cPlayer
 {
 	public:
