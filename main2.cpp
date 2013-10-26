@@ -42,7 +42,12 @@ class cLevel
 		}
 		void createLevel
 		{
-			
+			if(makeLevel == true)
+			{
+				if(blocknum < blockamount)
+				oBlock[blocknum].x = blockx;
+				oBlock[blocknum].y = blocky;
+			}
 		}
 	
 }
