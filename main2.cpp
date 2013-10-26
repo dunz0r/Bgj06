@@ -29,9 +29,12 @@ class cLevel
 {
 	public:
 		float blockx,blocky;
-		int blocknum;
+		int blocknum, blockamount;
 		cBlock oBlock[100];
-		
+		void init()
+		{
+			blocknum = 0;
+		}
 	
 }
 
