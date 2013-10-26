@@ -187,7 +187,7 @@ class cRainbow
 			ry = iry;
 			rx = irx;
 			cy = 220;
-			thickness = 14.0;
+			thickness = 18.0;
 		}
 
 		void run()
@@ -198,7 +198,7 @@ class cRainbow
 		void draw()
 		{
 			for (int i = 0; i < 7; i++) {
-				al_draw_ellipse(cx, cy+(i*16), rx, ry, colorAlpha[i], thickness+4);
+				//al_draw_ellipse(cx, cy+(i*16), rx, ry, colorAlpha[i], thickness+4);
 				al_draw_ellipse(cx, cy+(i*16), rx, ry, color[i], thickness);
 			}
 		}
