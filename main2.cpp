@@ -29,6 +29,10 @@ class cLevel
 {
 	public:
 		float blockx,blocky;
+		int blocknum;
+		cBlock oBlock[100];
+		
+	
 }
 
 //player class, runs around and jumps
