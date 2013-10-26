@@ -274,6 +274,7 @@ int main(int argc, char **argv )
 			//draw
 			al_clear_to_color(al_map_rgb(90,90,187));
 
+			oRainbow.draw()
 			oPlayer.draw();
 			oLevel.draw();
 			//////
