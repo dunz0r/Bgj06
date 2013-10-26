@@ -34,7 +34,7 @@ class cRainbow
 		radius = (float)DISPLAY_WIDTH / 2.0;
 		startTheta = 2.0;
 		deltaTheta = 4.0;
-		thickness = 30.01;
+		thickness = 30.0;
 	}
 
 	void draw()
