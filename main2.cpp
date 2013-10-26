@@ -42,7 +42,7 @@ class cLevel
 			blocknum = 0;
 			blockamount = 100;
 			blockx = 0;
-			blocky = 400;
+			blocky = 600;
 		}
 		void createLevel()
 		{
