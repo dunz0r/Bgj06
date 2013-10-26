@@ -110,15 +110,6 @@ class cPlayer
 		x += hspeed;
 		y += vspeed;
 		vspeed += gravity;
-		if(y < 600)
-		{
-			gravity = 0.2;
-		}
-		else
-		{
-			vspeed = 0;
-			gravity = 0;
-		}
 		if(al_key_down(key,ALLEGRO_KEY_UP)&&onGround == true)
 		{
 			vspeed = -4.5;
