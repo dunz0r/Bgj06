@@ -13,7 +13,11 @@
 
 const float fps = 60;
 
-
+class cPlayer
+{
+	public:
+		
+};
 
 int main(int argc, char **argv )
 {
