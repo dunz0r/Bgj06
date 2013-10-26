@@ -14,6 +14,8 @@
 const float fps = 60;
 float levelSpeed = 10;
 
+#define DISPLAY_WIDTH 1024
+#define DISPLAY_HEIGHT 768
 //block class, maybe circular
 class cBlock
 {
@@ -151,6 +153,36 @@ class cPlayer
 		{
 			al_draw_filled_circle(x,y,16,al_map_rgb(0,255,0));
 		}
+	}
+};
+
+class cRainbow
+{
+	public:
+		float cx,cy,rx,ry,thickness;
+		ALLEGRO_COLOR color[7] = { al_map_rgb(0,0,0) };
+	void create()
+	{
+		color[0] = al_map_rgb(255,0,0);
+		color[1] = al_map_rgb(255,127,0);
+		color[2] = al_map_rgb(255,255,0);
+		color[3] = al_map_rgb(0,255,0);
+		color[4] = al_map_rgb(0,0,255);
+		color[5] = al_map_rgb(75,0,130);
+		color[6] = al_map_rgb(143,0,255);
+		rx = DISPLAY_WIDTH/2.0;
+		ry = 250.0;
+		cx = DISPLAY_WIDTH/2;
+		cy = 260;
+		thickness = 18.0;
+	}
+
+	void draw()
+	{
+		for (int i = 0; i < 7; i++) {
+			al_draw_ellipse(cx, cy+(i*16), rx, ry, color[i], thickness);
+		}
+		al_draw_filled_rectangle(1, 220, 40, 30, al_map_rgb(255,0,0));
 	}
 };
 
