@@ -18,14 +18,8 @@ const float fps = 60;
 class cRainbow
 {
 	public:
-		float cx,cy,r,startTheta,deltaTheta,thickness;
-		ALLEGRO_COLOR color1;
-		ALLEGRO_COLOR color2;
-		ALLEGRO_COLOR color3;
-		ALLEGRO_COLOR color4;
-		ALLEGRO_COLOR color5;
-		ALLEGRO_COLOR color6;
-		ALLEGRO_COLOR color7;
+		float cx,cy,radius,startTheta,deltaTheta,thickness;
+		ALLEGRO_COLOR color[7];
 	void create()
 	{
 		ALLEGRO_COLOR color1 = al_map_rgb(255,0,0);
@@ -37,7 +31,7 @@ class cRainbow
 		ALLEGRO_COLOR color7 = al_map_rgb(143,0,255);
 		cx = (float)DISPLAY_WIDTH / 2.0;
 		cy = 800;
-		r = (float)DISPLAY_WIDTH / 2.0;
+		radius = (float)DISPLAY_WIDTH / 2.0;
 		startTheta = 2.0;
 		deltaTheta = 4.0;
 		thickness = 3.0;
@@ -45,6 +39,10 @@ class cRainbow
 
 	void draw()
 	{
+		for (i = 0; i < count; i++) {
+			/* code */
+		}
+		al_draw_arc(cx, cy, radius, color1, startTheta, deltaTheta, thickness);
 	}
 };
 int main(int argc, char **argv )
