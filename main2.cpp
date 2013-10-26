@@ -54,7 +54,6 @@ class cLevel
 					oBlock[blocknum].y = blocky;
 					oBlock[blocknum].exists = true;
 					blockx += 32;
-					blocky -= 16;
 					blocknum ++;
 				}
 			}
