@@ -38,6 +38,10 @@ class cLevel
 			blockx = 0;
 			blocky = 800;
 		}
+		void createLevel
+		{
+			
+		}
 	
 }
 
