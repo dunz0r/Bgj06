@@ -29,6 +29,12 @@ class cRainbow
 	void create()
 	{
 		ALLEGRO_COLOR color1 = al_map_rgb(255,0,0);
+		ALLEGRO_COLOR color2 = al_map_rgb(255,127,0);
+		ALLEGRO_COLOR color3 = al_map_rgb(255,255,0);
+		ALLEGRO_COLOR color4 = al_map_rgb(0,255,0);
+		ALLEGRO_COLOR color5 = al_map_rgb(0,0,255);
+		ALLEGRO_COLOR color6 = al_map_rgb(75,0,130);
+		ALLEGRO_COLOR color7 = al_map_rgb(143,0,255);
 		cx = (float)DISPLAY_WIDTH / 2.0;
 		cy = 800;
 		r = (float)DISPLAY_WIDTH / 2.0;
