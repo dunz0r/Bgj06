@@ -225,7 +225,7 @@ int main(int argc, char **argv )
 	oLevel.init();
 
 	cRainbow oRainbow;
-	oRainbow.create(oLevel.blockamount/2, 30, 220);
+	oRainbow.create((oLevel.blockamount/2)*32, 30, 220);
 
 	////
 	al_clear_to_color(al_map_rgb(0,0,0));
