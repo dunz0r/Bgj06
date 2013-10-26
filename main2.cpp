@@ -53,6 +53,7 @@ int main(int argc, char **argv )
     al_start_timer(timer);
     al_reserve_samples(1000);
     
+    al_play_sample(
     //RUN
     while(1<2)
     {  
