@@ -20,7 +20,7 @@ class cRainbow
 	public:
 		float cx,cy,rx,ry,thickness;
 		ALLEGRO_COLOR color[7] = { al_map_rgb(0,0,0) };
-	void create()
+	void create(cy)
 	{
 		color[0] = al_map_rgb(255,0,0);
 		color[1] = al_map_rgb(255,127,0);
@@ -30,7 +30,6 @@ class cRainbow
 		color[5] = al_map_rgb(75,0,130);
 		color[6] = al_map_rgb(143,0,255);
 		cx = (float)DISPLAY_HEIGHT / 2.0;
-		cy = 600;
 		rx = 2.0;
 		ry = 4.0;
 		thickness = 18.0;
@@ -113,7 +112,7 @@ int main(int argc, char **argv )
 		{
 			//draw
 			al_clear_to_color(al_map_rgb(0,0,0));
-			oRainbow.draw();
+			oRainbow.draw(cy);
 			redraw = false;
 			al_flip_display();
 		}
