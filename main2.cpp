@@ -257,6 +257,7 @@ int main(int argc, char **argv )
 			{
 				oLevel.createLevel();
 				oPlayer.run(&key);
+				oRainbow.run();
 				//player collision check
 				for(int i = 0;i<oLevel.blocknum;i++)
 				{
