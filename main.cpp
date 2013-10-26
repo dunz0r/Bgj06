@@ -39,7 +39,7 @@ class cRainbow
 
 	void draw()
 	{
-		for (i = 0; i < 7; i++) {
+		for (int i = 0; i < 7; i++) {
 			cx +=3;
 			al_draw_arc(cx, cy, radius, color[i], startTheta, deltaTheta, thickness);
 		}
