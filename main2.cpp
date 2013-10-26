@@ -87,6 +87,7 @@ class cPlayer
 		dy = othery-y;
 		if(((dx*dx)+(dy*dy))< 32*32)//collision has happened
 		{
+			onGround = true;
 			if(al_key_down(key,ALLEGRO_KEY_UP))
 			{
 				vspeed = -4.5;
