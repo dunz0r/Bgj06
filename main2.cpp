@@ -91,10 +91,6 @@ class cPlayer
 		}
 		if(((dx*dx)+(dy*dy))< (32*32))//collision has happened
 		{
-			if(al_key_down(key,ALLEGRO_KEY_UP))
-			{
-				vspeed = -4.5;
-			}
 			gravity = 0;
 			vspeed = 0;
 			x -= dx/10;
@@ -119,6 +115,10 @@ class cPlayer
 		{
 			vspeed = 0;
 			gravity = 0;
+		}
+		if(al_key_down(key,ALLEGRO_KEY_UP)&&onGround == true)
+		{
+			vspeed = -4.5;
 		}
 		if(al_key_down(key,ALLEGRO_KEY_RIGHT))
 		{
