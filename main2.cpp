@@ -44,7 +44,7 @@ int main(int argc, char **argv )
     
     //SAMPLES
     ALLEGRO_SAMPLE *sndTest;
-    sndTest = al_load_
+    sndTest = al_load_sample(
     
     al_clear_to_color(al_map_rgb(0,0,0));
     al_flip_display();
