@@ -31,7 +31,7 @@ class cRainbow
 		color[6] = al_map_rgb(143,0,255);
 		cx = 512;
 		rx = 2.0;
-		ry = 4.0;
+		ry = 8.0;
 		thickness = 18.0;
 	}
 
