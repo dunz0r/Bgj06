@@ -61,7 +61,7 @@ class cLevel
 					oBlock[blocknum].y = blocky;
 					oBlock[blocknum].exists = true;
 					blockx += 32;
-					blocky +=sin(blocksin)*30;
+					blocky +=sin(blocksin)*(rand;
 					blocknum ++;
 				}
 			}
@@ -106,8 +106,8 @@ class cPlayer
 		{
 			gravity = 0;
 			vspeed = 0;
-			x -= ((levelSpeed*8)+dx)/(levelSpeed/2);
-			y -= ((levelSpeed*8)+dy)/(levelSpeed/2);
+			x -= ((levelSpeed*8)+dx)/(levelSpeed);
+			y -= ((levelSpeed*8)+dy)/(levelSpeed);
 		}
 		else
 		{
