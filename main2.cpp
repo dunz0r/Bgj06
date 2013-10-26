@@ -48,7 +48,7 @@ class cLevel
 			invisible = 0;
 			makeLevel = true;
 			blocknum = 0;
-			blockamount = 1000;
+			blockamount = 100;
 			blockx = 0;
 			blocky = 500;
 			blocksin = 0;
