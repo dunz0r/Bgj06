@@ -39,10 +39,13 @@ class cRainbow
 
 	void draw()
 	{
+		/*
 		for (int i = 0; i < 7; i++) {
 			cx +=3;
 			al_draw_arc(cx, cy, radius, startTheta, deltaTheta, color[i], thickness);
 		}
+		*/
+		al_draw_arc(cx, cy, radius, startTheta, deltaTheta, al_map_rgb(255,255,0), thickness);
 	}
 };
 int main(int argc, char **argv )
