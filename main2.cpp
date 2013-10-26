@@ -141,7 +141,7 @@ class cPlayer
 	}
 	void draw()
 	{
-		if(onGround == false)
+		if(onGround == true)
 		{
 			al_draw_filled_circle(x,y,16,al_map_rgb(0,0,255));
 		}
