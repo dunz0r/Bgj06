@@ -102,6 +102,7 @@ class cPlayer
 		}
 		else
 		{
+			onGround = false;
 			gravity = 0.2;
 		}
 	};
