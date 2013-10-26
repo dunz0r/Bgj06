@@ -83,6 +83,9 @@ int main(int argc, char **argv )
     
     //SAMPLES
     
+    
+    ///OBJECTs
+    
     al_clear_to_color(al_map_rgb(0,0,0));
     al_flip_display();
     al_register_event_source(event_queue, al_get_display_event_source(display));
