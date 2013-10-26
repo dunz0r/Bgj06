@@ -38,15 +38,12 @@ class cRainbow
 
 	void draw()
 	{
-		/*
 		for (int i = 0; i < 7; i++) {
 			cx +=3;
-			al_draw_arc(cx, cy, radius, startTheta, deltaTheta, color[i], thickness);
+			al_draw_ellipse(DISPLAY_WIDTH/2, DISPLAY_HEIGHT/2, 400, 300, color[i], 40);
 		}
-		*/
 		//al_draw_arc(float cx, float cy, float r, float start_theta,
 		//   float delta_theta, ALLEGRO_COLOR color, float thickness)
-		al_draw_ellipse(DISPLAY_WIDTH/2, DISPLAY_HEIGHT/2, 400, 300, al_map_rgb(0,255,0), thockness);
 	}
 };
 int main(int argc, char **argv )
@@ -86,6 +83,7 @@ int main(int argc, char **argv )
 	al_reserve_samples(1000);
 
 	cRainbow oRainbow;
+	oRainbow.create();
 	//RUN
 	while(1<2)
 	{
