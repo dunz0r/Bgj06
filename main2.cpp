@@ -12,7 +12,7 @@
 #include <math.h>
 
 const float fps = 60;
-float levelSpeed = 10;
+float levelSpeed = 5;
 
 #define DISPLAY_WIDTH 1024
 #define DISPLAY_HEIGHT 768
