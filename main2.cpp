@@ -173,13 +173,13 @@ class cRainbow
 			color[5] = al_map_rgb(75,0,130);
 			color[6] = al_map_rgb(143,0,255);
 			// Alpha colours
-			colorAlpha[0] = al_map_rgba(255,0,0,150);
-			colorAlpha[1] = al_map_rgba(255,127,0,150);
-			colorAlpha[2] = al_map_rgba(255,255,0,150);
-			colorAlpha[3] = al_map_rgba(0,255,0,150);
-			colorAlpha[4] = al_map_rgba(0,0,255,150);
-			colorAlpha[5] = al_map_rgba(75,0,130,150);
-			colorAlpha[6] = al_map_rgba(143,0,255,150);
+			colorAlpha[0] = al_map_rgba(255,0,0,70);
+			colorAlpha[1] = al_map_rgba(255,127,0,70);
+			colorAlpha[2] = al_map_rgba(255,255,0,70);
+			colorAlpha[3] = al_map_rgba(0,255,0,70);
+			colorAlpha[4] = al_map_rgba(0,0,255,70);
+			colorAlpha[5] = al_map_rgba(75,0,130,70);
+			colorAlpha[6] = al_map_rgba(143,0,255,70);
 			//rx = DISPLAY_WIDTH/2.0;
 			//rx = DISPLAY_WIDTH/3.0;
 			cx = icx;
