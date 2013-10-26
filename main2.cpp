@@ -270,7 +270,7 @@ int main(int argc, char **argv )
 		if(redraw && al_is_event_queue_empty(event_queue))
 		{
 			//draw
-			al_clear_to_color(al_map_rgb(90,90,187));
+			al_clear_to_color(al_map_rgb(0,0,0));
 
 			oRainbow.draw();
 			oPlayer.draw();
