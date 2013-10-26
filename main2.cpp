@@ -12,6 +12,7 @@
 #include <math.h>
 
 const float fps = 60;
+float levelSpeed = 4;
 
 //block class, maybe circular
 class cBlock
@@ -105,8 +106,8 @@ class cPlayer
 		{
 			gravity = 0;
 			vspeed = 0;
-			x -= dx/8;
-			y -= dy/8;
+			x -= dx/10;
+			y -= dy/10;
 		}
 		else
 		{
