@@ -13,6 +13,7 @@
 
 const float fps = 60;
 
+class cRainbow
 int main(int argc, char **argv )
 {
 	//inits
