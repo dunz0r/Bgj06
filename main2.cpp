@@ -46,6 +46,10 @@ class cPlayer
 			vspeed = 2;
 		}
 	}
+	void draw()
+	{
+		al_draw_
+	}
 };
 
 int main(int argc, char **argv )
