@@ -66,7 +66,7 @@ int main(int argc, char **argv )
 	ALLEGRO_DISPLAY *display;
 	al_set_new_display_flags(ALLEGRO_WINDOWED);
 
-	display = al_create_display(DISPLAY_HEIGHT, DISPLAY_WIDTH);
+	display = al_create_display(DISPLAY_WIDTH, DISPLAY_HEIGHT);
 
 	al_hide_mouse_cursor(display);
 
