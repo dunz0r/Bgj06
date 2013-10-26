@@ -106,8 +106,8 @@ class cPlayer
 		{
 			gravity = 0;
 			vspeed = 0;
-			x -= ((levelSpeed*8)+dx)/8;
-			y -= ((levelSpeed*8)+dy)/8;
+			x -= ((levelSpeed*8)+dx)/(levelSpeed/10);
+			y -= ((levelSpeed*8)+dy)/(levelSpeed/10);
 		}
 		else
 		{
