@@ -18,10 +18,10 @@ class cBlock
 {
 	public:
 		float x,y;
-		void create()
-		{
-			
-		}	
+	void draw()
+	{
+		al_draw_filled_circle(x,y,16,al_map_rgb(255,0,0));
+	}
 };
 
 
