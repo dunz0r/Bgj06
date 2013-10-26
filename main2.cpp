@@ -67,6 +67,7 @@ class cLevel
 			{
 				oBlock[i].draw();
 			}
+			al_draw_ellipse(400,30,500,60,al_map_rgb(255,0,0),28));
 		}
 };
 
