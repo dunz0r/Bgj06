@@ -24,6 +24,12 @@ class cBlock
 	}
 };
 
+//levelcreate
+class cLevel
+{
+	public:
+		float blockx,blocky;
+}
 
 //player class, runs around and jumps
 class cPlayer
