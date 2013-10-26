@@ -30,7 +30,7 @@ class cRainbow
 		color[5] = al_map_rgb(75,0,130);
 		color[6] = al_map_rgb(143,0,255);
 		cx = (float)DISPLAY_WIDTH / 2.0;
-		cy = 500;
+		cy = 600;
 		rx = 2.0;
 		ry = 4.0;
 		thickness = 18.0;
