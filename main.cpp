@@ -39,7 +39,7 @@ class cRainbow
 	void draw()
 	{
 		for (int i = 0; i < 7; i++) {
-			cx +=3;
+			cy +=3;
 			al_draw_ellipse(cx, cy, 400, 300, color[i], 40);
 		}
 		//al_draw_arc(float cx, float cy, float r, float start_theta,
