@@ -33,6 +33,14 @@ class cPlayer
 		{
 			hspeed = 2;
 		}
+		if(al_key_down(key,ALLEGRO_KEY_LEFT))
+		{
+			hspeed = -2;
+		}
+		if(al_key_down(key,ALLEGRO_KEY_UP))
+		{
+			vspeed = -2;
+		}
 	}
 };
 
