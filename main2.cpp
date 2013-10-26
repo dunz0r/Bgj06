@@ -61,7 +61,7 @@ class cLevel
 					oBlock[blocknum].y = blocky;
 					oBlock[blocknum].exists = true;
 					blockx += 32;
-					blocky +=sin(blocksin)*(rand()%80+1);
+					blocky +=sin(blocksin)*(rand()%30+1);
 					blocknum ++;
 				}
 			}
