@@ -42,7 +42,7 @@ class cLevel
 			blocknum = 0;
 			blockamount = 100;
 			blockx = 0;
-			blocky = 600;
+			blocky = 400;
 			blocksin = 0;
 		}
 		void createLevel()
@@ -88,7 +88,7 @@ class cPlayer
 	{
 		dx = otherx-x;
 		dy = othery-y;
-		if(((dx*dx)+(dy*dy))< (48*48))
+		if(((dx*dx)+(dy*dy))< (32*32))
 		{
 			onGround = true;
 		}
