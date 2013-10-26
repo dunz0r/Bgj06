@@ -21,7 +21,7 @@ class cBlock
 		bool exists;
 	void run()
 	{
-		x --;
+		x -=4;
 	}
 	void draw()
 	{
@@ -60,7 +60,7 @@ class cLevel
 					oBlock[blocknum].y = blocky;
 					oBlock[blocknum].exists = true;
 					blockx += 32;
-					blocky +=sin(blocksin)*40;
+					blocky +=sin(blocksin)*30;
 					blocknum ++;
 				}
 			}
