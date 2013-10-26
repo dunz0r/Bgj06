@@ -13,8 +13,8 @@
 
 const float fps = 60;
 
-#define DISPLAY_WIDTH 768
-#define DISPLAY_HEIGHT 1024
+#define DISPLAY_WIDTH 1024
+#define DISPLAY_HEIGHT 768
 class cRainbow
 {
 	public:
