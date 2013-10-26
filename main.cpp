@@ -33,13 +33,13 @@ class cRainbow
 		cy = 500;
 		rx = 2.0;
 		ry = 4.0;
-		thickness = 28;
+		thickness = 18.0;
 	}
 
 	void draw()
 	{
 		for (int i = 0; i < 7; i++) {
-			al_draw_ellipse(cx, cy+i*2, 400, 300, color[i], 40);
+			al_draw_ellipse(cx, cy+i*3, 400, 300, color[i], thickness);
 		}
 		//al_draw_arc(float cx, float cy, float r, float start_theta,
 		//   float delta_theta, ALLEGRO_COLOR color, float thickness)
