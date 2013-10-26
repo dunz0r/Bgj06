@@ -41,7 +41,7 @@ class cPlayer
 		{
 			vspeed = -2;
 		}
-		if(al_key_down(key,ALLEGRO_KEY_DOWN
+		if(al_key_down(key,ALLEGRO_KEY_DOWN))
 		{
 			vspeed = 2;
 		}
