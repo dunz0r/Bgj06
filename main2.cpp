@@ -161,7 +161,7 @@ class cRainbow
 	public:
 		float cx,cy,rx,ry,thickness;
 		ALLEGRO_COLOR color[7] = { al_map_rgb(0,0,0) };
-	void create()
+	void create(float cx, float cy, float rx, float ry)
 	{
 		color[0] = al_map_rgb(255,0,0);
 		color[1] = al_map_rgb(255,127,0);
@@ -172,8 +172,7 @@ class cRainbow
 		color[6] = al_map_rgb(143,0,255);
 		rx = DISPLAY_WIDTH/2.0;
 		ry = 250.0;
-		cx = DISPLAY_WIDTH/2;
-		cy = 260;
+		//cy = 260;
 		thickness = 18.0;
 	}
 
