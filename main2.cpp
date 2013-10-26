@@ -187,7 +187,7 @@ class cRainbow
 			ry = iry;
 			rx = irx;
 			cy = 220;
-			thickness = 18.0;
+			thickness = 14.0;
 		}
 
 		void run()
