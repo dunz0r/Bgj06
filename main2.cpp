@@ -28,7 +28,7 @@ class cBlock
 	{
 		if(exists == true)
 		{
-			al_draw_filled_circle(x,y,16,al_map_rgb(255,0,0));
+			al_draw_filled_circle(x,y,48,al_map_rgb(255,255,255));
 		}
 	}
 };
