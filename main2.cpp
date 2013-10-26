@@ -161,7 +161,7 @@ class cRainbow
 	public:
 		float cx,cy,rx,ry,thickness;
 		ALLEGRO_COLOR color[7] = { al_map_rgb(0,0,0) };
-		ALLEGRO_COLR colorAlpha[7] = { al_map_rgba(0,0,0,0) };
+		ALLEGRO_COLOR colorAlpha[7] = { al_map_rgba(0,0,0,0) };
 		void create(float icx, float irx, float iry)
 		{
 			// Solid colours
