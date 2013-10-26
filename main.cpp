@@ -33,7 +33,7 @@ class cRainbow
 		cy = 500;
 		rx = 2.0;
 		ry = 4.0;
-		thickness = 28.0;
+		thickness = 28;
 	}
 
 	void draw()
