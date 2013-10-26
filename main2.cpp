@@ -233,7 +233,7 @@ int main(int argc, char **argv )
 
 	cRainbow oRainbow;
 	// void create(float icx, float irx, float iry)
-	oRainbow.create(oLevel.blockamount*16, oLevel.blockamount*16, 420);
+	oRainbow.create(oLevel.blockamount*24, oLevel.blockamount*20, 420);
 
 	////
 	al_clear_to_color(al_map_rgb(0,0,0));
