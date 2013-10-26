@@ -89,6 +89,10 @@ class cPlayer
 		{
 			onGround = true;
 		}
+		else
+		{
+			onGround = false;
+		}
 		if(((dx*dx)+(dy*dy))< 32*32)//collision has happened
 		{
 			
@@ -103,7 +107,6 @@ class cPlayer
 		}
 		else
 		{
-			onGround = false;
 			gravity = 0.2;
 		}
 	};
