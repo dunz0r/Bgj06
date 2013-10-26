@@ -18,9 +18,13 @@ class cBlock
 {
 	public:
 		float x,y;
+		bool exists;
 	void draw()
 	{
-		al_draw_filled_circle(x,y,16,al_map_rgb(255,0,0));
+		if(exists == true)
+		{
+			al_draw_filled_circle(x,y,16,al_map_rgb(255,0,0));
+		}
 	}
 };
 
@@ -48,6 +52,7 @@ class cLevel
 				{
 					oBlock[blocknum].x = blockx;
 					oBlock[blocknum].y = blocky;
+					oBlock[blocknum].exists = true;
 					blockx += 32;
 					blocknum ++;
 				}
