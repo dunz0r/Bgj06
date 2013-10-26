@@ -99,6 +99,7 @@ class cPlayer
 		}
 		else
 		{
+			onGround = false;
 			gravity = 0.2;
 		}
 	};
@@ -124,8 +125,7 @@ class cPlayer
 		if(al_key_down(key,ALLEGRO_KEY_LEFT))
 		{
 			hspeed = -2;
-		}
-		
+		}	
 		if(al_key_down(key,ALLEGRO_KEY_DOWN))
 		{
 			vspeed = 2;
@@ -134,7 +134,14 @@ class cPlayer
 	}
 	void draw()
 	{
-		al_draw_filled_circle(x,y,16,al_map_rgb(0,0,255));
+		if(onGround == false)
+		{
+			al_draw_filled_circle(x,y,16,al_map_rgb(0,0,255));
+		}
+		else
+		{
+			
+		}
 	}
 };
 
