@@ -13,6 +13,8 @@
 
 const float fps = 60;
 
+
+
 int main(int argc, char **argv )
 {
 	//inits
