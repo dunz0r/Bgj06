@@ -111,7 +111,7 @@ class cPlayer
 		}
 		else
 		{
-			gravity = 0.2;
+			gravity = levelSpeed/100;
 		}
 	};
 	void run(ALLEGRO_KEYBOARD_STATE *key)
