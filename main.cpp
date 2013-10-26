@@ -22,13 +22,13 @@ class cRainbow
 		ALLEGRO_COLOR color[7];
 	void create()
 	{
-		ALLEGRO_COLOR color1 = al_map_rgb(255,0,0);
-		ALLEGRO_COLOR color2 = al_map_rgb(255,127,0);
-		ALLEGRO_COLOR color3 = al_map_rgb(255,255,0);
-		ALLEGRO_COLOR color4 = al_map_rgb(0,255,0);
-		ALLEGRO_COLOR color5 = al_map_rgb(0,0,255);
-		ALLEGRO_COLOR color6 = al_map_rgb(75,0,130);
-		ALLEGRO_COLOR color7 = al_map_rgb(143,0,255);
+		ALLEGRO_COLOR color[1] = al_map_rgb(255,0,0);
+		ALLEGRO_COLOR color[2] = al_map_rgb(255,127,0);
+		ALLEGRO_COLOR color[3] = al_map_rgb(255,255,0);
+		ALLEGRO_COLOR color[4] = al_map_rgb(0,255,0);
+		ALLEGRO_COLOR color[5] = al_map_rgb(0,0,255);
+		ALLEGRO_COLOR color[6] = al_map_rgb(75,0,130);
+		ALLEGRO_COLOR color[7] = al_map_rgb(143,0,255);
 		cx = (float)DISPLAY_WIDTH / 2.0;
 		cy = 800;
 		radius = (float)DISPLAY_WIDTH / 2.0;
@@ -39,10 +39,9 @@ class cRainbow
 
 	void draw()
 	{
-		for (i = 0; i < count; i++) {
-			/* code */
+		for (i = 0; i < 7; i++) {
+			al_draw_arc(cx, cy, radius, color[i], startTheta, deltaTheta, thickness);
 		}
-		al_draw_arc(cx, cy, radius, color1, startTheta, deltaTheta, thickness);
 	}
 };
 int main(int argc, char **argv )
