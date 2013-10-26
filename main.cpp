@@ -35,7 +35,7 @@ int main(int argc, char **argv )
 
 	al_hide_mouse_cursor(display);
 
-	//
+	// Event queue
 	ALLEGRO_EVENT_QUEUE *event_queue = NULL;
 	ALLEGRO_TIMER *timer = NULL;
 	bool redraw = true;
