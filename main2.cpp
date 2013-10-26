@@ -190,7 +190,7 @@ int main(int argc, char **argv )
 			
 			//Runny tunny
 			{
-				oLevel.makeLevel();
+				oLevel.createLevel();
 				oPlayer.run(&key);
 				if(al_key_down(&key,ALLEGRO_KEY_ESCAPE))
 				{
@@ -211,7 +211,7 @@ int main(int argc, char **argv )
 			al_clear_to_color(al_map_rgb(0,0,0));
 		
 			oPlayer.draw();
-		
+			oLevel.draw();
 			//////
 		
             redraw = false;
