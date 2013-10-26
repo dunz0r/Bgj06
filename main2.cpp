@@ -24,7 +24,11 @@ class cPlayer
 		vspeed = 0;
 		gravity = 0.2;
 	}
-	
+	void run(ALLEGRO_KEYBOARD_STATE *key)
+	{
+		//vspeed += gravity;
+		if(al_key_down(key,ALLEGRO_KEY_RIGHT));
+	}
 };
 
 int main(int argc, char **argv )
