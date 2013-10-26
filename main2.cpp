@@ -85,17 +85,13 @@ class cPlayer
 	{
 		dx = otherx-x;
 		dy = othery-y;
-		if(((dx*dx)+(dy*dy))< 128*128)
-		{
-			onGround = true;
-		}
-		else
-		{
-			onGround = false;
-		}
 		if(((dx*dx)+(dy*dy))< 32*32)//collision has happened
 		{
-		
+			
+			if(al_key_down(key,ALLEGRO_KEY_UP))
+			{
+				vspeed = -4.5;
+			}
 			gravity = 0;
 			vspeed = 0;
 			x -= dx/10;
