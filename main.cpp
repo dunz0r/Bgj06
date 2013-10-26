@@ -20,7 +20,7 @@ int main(int argc, const char *argv[]){
 	al_install_mouse();
 	al_install_audio;
 	al_init_acodec_addon();
-	al_reserve_samples();
+	al_reserve_samples(1000);
 	ALLEGRO_KEYBOARD_STATE key;
 	ALLEGRO_MOUSE_STATE mouse;
 	return 0;
