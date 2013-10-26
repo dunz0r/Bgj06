@@ -21,7 +21,7 @@ class cBlock
 		bool exists;
 	void run()
 	{
-		x -=2;
+		x -=4;
 	}
 	void draw()
 	{
