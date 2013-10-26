@@ -178,6 +178,10 @@ class cRainbow
 			thickness = 18.0;
 		}
 
+		void run() 
+		{
+		}
+
 		void draw()
 		{
 			for (int i = 0; i < 7; i++) {
