@@ -47,7 +47,7 @@ class cRainbow
 		*/
 		//al_draw_arc(float cx, float cy, float r, float start_theta,
 		//   float delta_theta, ALLEGRO_COLOR color, float thickness)
-		al_draw_arc(512, 384, 400, 3.0, 3.5, al_map_rgb(255,255,0), thickness);
+		al_draw_arc(512, 384, 400, 3.0, 3.0, al_map_rgb(255,255,0), thickness);
 	}
 };
 int main(int argc, char **argv )
