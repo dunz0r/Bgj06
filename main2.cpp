@@ -45,10 +45,12 @@ class cLevel
 			if(makeLevel == true)
 			{
 				if(blocknum < blockamount)
-				oBlock[blocknum].x = blockx;
-				oBlock[blocknum].y = blocky;
-				blockx += 32;
-				blocknum ++;
+				{
+					oBlock[blocknum].x = blockx;
+					oBlock[blocknum].y = blocky;
+					blockx += 32;
+					blocknum ++;
+				}
 			}
 		}
 	
