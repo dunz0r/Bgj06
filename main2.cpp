@@ -93,6 +93,7 @@ class cPlayer
 			}
 			gravity = 0;
 			vspeed = 0;
+			x += 
 		}
 		else
 		{
