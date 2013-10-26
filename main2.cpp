@@ -85,7 +85,7 @@ class cPlayer
 	{
 		dx = otherx-x;
 		dy = othery-y;
-		if(((dx*dx)+(dy*dy))< 64*64)
+		if(((dx*dx)+(dy*dy))< 128*128)
 		{
 			onGround = true;
 		}
