@@ -30,7 +30,7 @@ class cPlayer
 		x += hspeed;
 		y += vspeed;
 		vspeed += gravity;
-		if(y < 800)
+		if(y < 600)
 		{
 			gravity = 0.2;
 		}
