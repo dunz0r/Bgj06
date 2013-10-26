@@ -13,11 +13,20 @@
 
 const float fps = 60;
 
+#define DISPLAY_WIDTH 768
+#define DISPLAY_HEIGHT 1024
 class cRainbow
 {
 	public:
 		float cx,cy,r,startTheta,deltaTheta,thickness;
 		ALLEGRO_COLOR color;
+	void create()
+	{
+		cx = (float)DISPLAY_WIDTH / 2.0;
+		cy = 800;
+		r = (float)DISPLAY_WIDTH / 2.0;
+		startTheta = 2.0;
+	}
 int main(int argc, char **argv )
 {
 	//inits
@@ -36,7 +45,7 @@ int main(int argc, char **argv )
 	ALLEGRO_DISPLAY *display;
 	al_set_new_display_flags(ALLEGRO_WINDOWED);
 
-	display = al_create_display(1024, 768);
+	display = al_create_display(DISPLAY_HEIGHT, DISPLAY_WIDTH);
 
 	al_hide_mouse_cursor(display);
 
