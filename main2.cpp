@@ -34,6 +34,9 @@ class cLevel
 		void init()
 		{
 			blocknum = 0;
+			blockamount = 100;
+			blockx = 0;
+			blocky = 800;
 		}
 	
 }
