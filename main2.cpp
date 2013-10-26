@@ -17,6 +17,11 @@ class cPlayer
 {
 	public:
 		float x,y,vspeed,hspeed;
+	void create()
+	{
+		x = 200;
+		y = 400;
+	}
 };
 
 int main(int argc, char **argv )
