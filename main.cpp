@@ -53,7 +53,7 @@ int main(int argc, char **argv )
 
 	//RUN
 	while(1<2)
-	{  
+	{
 		ALLEGRO_EVENT ev;
 		al_wait_for_event(event_queue, &ev);
 		al_get_keyboard_state(&key);
