@@ -55,7 +55,7 @@ class cLevel
 		}
 		void draw()
 		{
-			for(int i = 0; i<blocknum;i++)
+			for(int i = 0; i < blockamount;i++)
 			{
 				oBlock[i].draw();
 			}
