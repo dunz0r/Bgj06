@@ -42,7 +42,6 @@ int main(int argc, char **argv )
     timer = al_create_timer(1.0/fps);
     event_queue = al_create_event_queue();
     
-    
     al_clear_to_color(al_map_rgb(0,0,0));
     al_flip_display();
     al_register_event_source(event_queue, al_get_display_event_source(display));
