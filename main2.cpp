@@ -52,7 +52,7 @@ class cLevel
 		}
 		void createLevel()
 		{
-			blocksin +=(rand()%60+1)/10;
+			blocksin +=0.2;
 			if(makeLevel == true)
 			{
 				if(blocknum < blockamount)
