@@ -24,6 +24,7 @@ class cPlayer
 		vspeed = 0;
 		gravity = 0.2;
 	}
+	
 };
 
 int main(int argc, char **argv )
