@@ -106,8 +106,8 @@ class cPlayer
 		{
 			gravity = 0;
 			vspeed = 0;
-			x -= (levelSpeed/2)+dx/10;
-			y -= (levelSpeed/2)+dy/10;
+			x -= (levelSpeed/2)+dx/8;
+			y -= (levelSpeed/2)+dy/8;
 		}
 		else
 		{
@@ -122,7 +122,7 @@ class cPlayer
 		vspeed += gravity;
 		if(al_key_down(key,ALLEGRO_KEY_UP)&&onGround == true)
 		{
-			vspeed = -levelSpeed;
+			vspeed = -levelSpeed*2;
 			onGround = false;
 		}
 		if(al_key_down(key,ALLEGRO_KEY_RIGHT))
