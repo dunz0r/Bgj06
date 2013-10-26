@@ -54,7 +54,7 @@ class cLevel
 			}
 		}
 	
-}
+};
 
 //player class, runs around and jumps
 class cPlayer
