@@ -29,6 +29,7 @@ class cPlayer
 		//vspeed += gravity;
 		x += hspeed;
 		y += vspeed;
+		vspeed += gravity;
 		if(al_key_down(key,ALLEGRO_KEY_RIGHT))
 		{
 			vspeed = 0;
