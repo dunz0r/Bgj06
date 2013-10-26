@@ -28,12 +28,11 @@ int main(int argc, char **argv )
     ALLEGRO_KEYBOARD_STATE key;
     ALLEGRO_MOUSE_STATE mouse;
     
-	int 1024, 768;
     ALLEGRO_DISPLAY *display;
     al_set_new_display_flags(ALLEGRO_WINDOWED);
     al_set_new_display_option(ALLEGRO_VSYNC, 1, ALLEGRO_REQUIRE);
     
-    display = al_create_display(windowWidth, windowHeight);
+    display = al_create_display(1024, 768);
     
     al_hide_mouse_cursor(display);
 
