@@ -31,13 +31,15 @@ class cRainbow
 		color[6] = al_map_rgb(143,0,255);
 		rx = 20.0;
 		ry = 80.0;
+		cx = 300;
+		cy = 300;
 		thickness = 18.0;
 	}
 
 	void draw()
 	{
 		for (int i = 0; i < 7; i++) {
-			al_draw_ellipse(cx, cy+i*3, rx, ry, color[i], thickness);
+			al_draw_ellipse(cx, cy+(i*4), rx, ry, color[i], thickness);
 		}
 	}
 };
