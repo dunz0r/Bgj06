@@ -17,8 +17,10 @@ class cPlayer
 {
 	public:
 		float x,y,vspeed,hspeed,gravity;
+		bool onGround;
 	void create()
 	{
+		onGround = false;
 		x = 200;
 		y = 400;
 		vspeed = 0;
