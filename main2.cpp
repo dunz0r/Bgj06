@@ -19,7 +19,6 @@ class cBlock
 	public:
 		float x,y;
 		bool exists;
-		void
 	void draw()
 	{
 		if(exists == true)
