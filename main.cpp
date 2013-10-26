@@ -19,14 +19,25 @@ class cRainbow
 {
 	public:
 		float cx,cy,r,startTheta,deltaTheta,thickness;
-		ALLEGRO_COLOR color;
+		ALLEGRO_COLOR color1;
+		ALLEGRO_COLOR color2;
+		ALLEGRO_COLOR color3;
+		ALLEGRO_COLOR color4;
+		ALLEGRO_COLOR color5;
+		ALLEGRO_COLOR color6;
+		ALLEGRO_COLOR color7;
 	void create()
 	{
+		ALLEGRO_COLOR color1 = al_map_rgb(255,0,0);
 		cx = (float)DISPLAY_WIDTH / 2.0;
 		cy = 800;
 		r = (float)DISPLAY_WIDTH / 2.0;
 		startTheta = 2.0;
+		deltaTheta = 4.0;
+		thickness = 3.0;
 	}
+
+	void draw()
 int main(int argc, char **argv )
 {
 	//inits
