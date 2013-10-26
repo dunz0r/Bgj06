@@ -46,7 +46,7 @@ class cRainbow
 		*/
 		//al_draw_arc(float cx, float cy, float r, float start_theta,
 		//   float delta_theta, ALLEGRO_COLOR color, float thickness)
-		al_draw_ellipse(cx, cy, rx, ry, al_map_rgb(0,255,0), thickness);
+		al_draw_ellipse(500, 500, 40, 30, al_map_rgb(0,255,0), thickness);
 	}
 };
 int main(int argc, char **argv )
