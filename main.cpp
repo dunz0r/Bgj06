@@ -79,7 +79,7 @@ int main(int argc, char **argv )
 	al_reserve_samples(1000);
 
 	cRainbow oRainbow;
-	oRainbow.create(300);
+	oRainbow.create(200);
 	//RUN
 	while(1<2)
 	{
