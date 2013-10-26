@@ -79,7 +79,7 @@ int main(int argc, char **argv )
 	al_reserve_samples(1000);
 
 	cRainbow oRainbow;
-	oRainbow.create();
+	oRainbow.create(300);
 	//RUN
 	while(1<2)
 	{
@@ -112,7 +112,7 @@ int main(int argc, char **argv )
 		{
 			//draw
 			al_clear_to_color(al_map_rgb(0,0,0));
-			oRainbow.draw(cy);
+			oRainbow.draw();
 			redraw = false;
 			al_flip_display();
 		}
