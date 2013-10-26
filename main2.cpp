@@ -90,8 +90,8 @@ class cPlayer
 			
 			gravity = 0;
 			vspeed = 0;
-			x -= dx/4;
-			y -= dy/4;
+			x -= dx/10;
+			y -= dy/10;
 		}
 		else
 		{
