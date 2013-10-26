@@ -16,7 +16,7 @@ const float fps = 60;
 class cPlayer
 {
 	public:
-		
+		float x,y,vspeed,hspeed;
 };
 
 int main(int argc, char **argv )
