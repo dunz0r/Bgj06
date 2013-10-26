@@ -19,7 +19,7 @@ class cRainbow
 {
 	public:
 		float cx,cy,radius,startTheta,deltaTheta,thickness;
-		ALLEGRO_COLOR color[7] = { 0 };
+		ALLEGRO_COLOR color[7] = { al_map_rgb(0,0,0) };
 	void create()
 	{
 		color[0] = al_map_rgb(255,0,0);
