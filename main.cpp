@@ -45,7 +45,7 @@ class cRainbow
 			al_draw_arc(cx, cy, radius, startTheta, deltaTheta, color[i], thickness);
 		}
 		*/
-		al_draw_arc(5, 80, 60, 40, 40, al_map_rgb(255,255,0), thickness);
+		al_draw_arc(1, 80, 60, 40, 40, al_map_rgb(255,255,0), thickness);
 	}
 };
 int main(int argc, char **argv )
