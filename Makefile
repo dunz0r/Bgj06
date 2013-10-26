@@ -1,4 +1,4 @@
-TARGET=main
+TARGET=main2
 CC=gcc
 CXX=g++
 # Heh.
