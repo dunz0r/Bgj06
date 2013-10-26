@@ -197,6 +197,7 @@ int main(int argc, char **argv )
 			{
 				oLevel.createLevel();
 				oPlayer.run(&key);
+				//player collision check
 				if(al_key_down(&key,ALLEGRO_KEY_ESCAPE))
 				{
 					return 0;
