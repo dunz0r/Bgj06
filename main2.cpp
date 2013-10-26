@@ -16,11 +16,13 @@ const float fps = 60;
 class cPlayer
 {
 	public:
-		float x,y,vspeed,hspeed;
+		float x,y,vspeed,hspeed,gravity;
 	void create()
 	{
 		x = 200;
 		y = 400;
+		vspeed = 0;
+		gravity = 0.2;
 	}
 };
 
