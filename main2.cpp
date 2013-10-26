@@ -16,7 +16,7 @@ const float fps = 60;
 class cPlayer
 {
 	public:
-		float x,y,vspeed,hspeed,gravity;
+		float x,y,vspeed,hspeed,gravity, dx,dy;
 		bool onGround;
 	void create()
 	{
