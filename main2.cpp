@@ -165,6 +165,9 @@ int main(int argc, char **argv )
     cPlayer oPlayer;
     oPlayer.create();
     
+    cLevel oLevel;
+    oLevel.init();
+    
     ////
     al_clear_to_color(al_map_rgb(0,0,0));
     al_flip_display();
