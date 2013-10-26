@@ -35,6 +35,10 @@ class cPlayer
 			gravity = 0;
 			vspeed = 0;
 		}
+		else
+		{
+			gravity = 0.2;
+		}
 	};
 	void run(ALLEGRO_KEYBOARD_STATE *key)
 	{
