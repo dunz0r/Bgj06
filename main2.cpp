@@ -96,8 +96,8 @@ class cPlayer
 	}
 	void checkCollision(float otherx, float othery, ALLEGRO_KEYBOARD_STATE *key)
 	{
-		dx = otherx-x;
-		dy = othery-y;
+		dx = otherx-(x+hspeed);
+		dy = othery-(y+vspeed);
 		if(((dx*dx)+(dy*dy))< (32*32))
 		{
 			onGround = true;
