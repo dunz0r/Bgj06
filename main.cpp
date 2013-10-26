@@ -39,7 +39,7 @@ class cRainbow
 	void draw()
 	{
 		for (int i = 0; i < 7; i++) {
-			al_draw_ellipse(cx, cy+(i*8), rx, ry, color[i], thickness);
+			al_draw_ellipse(cx, cy+(i*10), rx, ry, color[i], thickness);
 		}
 	}
 };
