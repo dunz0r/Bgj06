@@ -40,7 +40,7 @@ class cRainbow
 	{
 		for (int i = 0; i < 7; i++) {
 			cx +=3;
-			al_draw_ellipse(DISPLAY_WIDTH/2, DISPLAY_HEIGHT/2, 400, 300, color[i], 40);
+			al_draw_ellipse(cx, cy, 400, 300, color[i], 40);
 		}
 		//al_draw_arc(float cx, float cy, float r, float start_theta,
 		//   float delta_theta, ALLEGRO_COLOR color, float thickness)
