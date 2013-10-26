@@ -59,7 +59,7 @@ class cPlayer
 			hspeed = 0;
 			vspeed = 2;
 		}
-		if(!al_key_down(key,ALLEGRO_KEY_LEFT||ALLEGRO_KEY_RIGHT)){hspeed = 0;};
+		if(!al_key_down(key,ALLEGRO_KEY_LEFT)&&!al_key_down(key,ALLEGRO_KEY_LEFT)){hspeed = 0;};
 	}
 	void draw()
 	{
