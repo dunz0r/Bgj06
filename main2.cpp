@@ -67,8 +67,6 @@ class cLevel
 			{
 				oBlock[i].draw();
 			}
-			al_draw_ellipse(480,200,500,200,al_map_rgb(255,0,0),28);
-			al_draw_filled_rectangle(0,200,1024,768,al_map_rgb(0,0,0));
 		}
 };
 
