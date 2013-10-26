@@ -43,8 +43,6 @@ int main(int argc, char **argv )
     event_queue = al_create_event_queue();
     
     //SAMPLES
-    ALLEGRO_SAMPLE *sndTest;
-    sndTest = al_load_sample("sndSong.ogg");
     
     al_clear_to_color(al_map_rgb(0,0,0));
     al_flip_display();
@@ -53,7 +51,6 @@ int main(int argc, char **argv )
     al_start_timer(timer);
     al_reserve_samples(1000);
     
-    al_play_sample(sndTest,1.0,0.0,1,ALLEGRO_PLAYMODE_ONCE,NULL);
     //RUN
     while(1<2)
     {  
