@@ -39,13 +39,13 @@ class cLevel
 	public:
 		float blockx,blocky,blocksin;
 		int blocknum, blockamount;
-		cBlock oBlock[100];
+		cBlock oBlock[1000];
 		bool makeLevel;
 		void init()
 		{
 			makeLevel = true;
 			blocknum = 0;
-			blockamount = 100;
+			blockamount = 1000;
 			blockx = 0;
 			blocky = 400;
 			blocksin = 0;
