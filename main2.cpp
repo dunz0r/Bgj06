@@ -26,6 +26,11 @@ class cPlayer
 		vspeed = 0;
 		gravity = 0.2;
 	}
+	void checkCollision(float otherx, float othery)
+	{
+		dx = otherx-x;
+		dy = othery-y;
+	}
 	void run(ALLEGRO_KEYBOARD_STATE *key)
 	{
 		//vspeed += gravity;
