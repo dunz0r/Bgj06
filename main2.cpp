@@ -224,6 +224,9 @@ int main(int argc, char **argv )
 	cLevel oLevel;
 	oLevel.init();
 
+	cRainbow oRainbow();
+	oRainbow.create(oLevel.blockamount, 200, 300, 40);
+
 	////
 	al_clear_to_color(al_map_rgb(0,0,0));
 	al_flip_display();
