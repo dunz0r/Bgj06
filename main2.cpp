@@ -102,7 +102,7 @@ class cPlayer
 		{
 			onGround = true;
 		}
-		if(((dx*dx)+(dy*dy))< (28*32))//collision has happened
+		if(((dx*dx)+(dy*dy))< (32*24))//collision has happened
 		{
 			gravity = 0;
 			vspeed = 0;
