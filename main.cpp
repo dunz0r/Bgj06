@@ -81,6 +81,7 @@ int main(int argc, char **argv )
 	al_start_timer(timer);
 	al_reserve_samples(1000);
 
+	cRainbow oRainbow;
 	//RUN
 	while(1<2)
 	{
@@ -112,6 +113,7 @@ int main(int argc, char **argv )
 		if(redraw && al_is_event_queue_empty(event_queue))
 		{
 			//draw
+			oRainbow.draw();
 			al_clear_to_color(al_map_rgb(0,0,0));
 			redraw = false;
 			al_flip_display();
