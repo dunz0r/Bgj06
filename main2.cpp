@@ -119,6 +119,7 @@ class cPlayer
 		if(al_key_down(key,ALLEGRO_KEY_UP)&&onGround == true)
 		{
 			vspeed = -4.5;
+			onGround = false;
 		}
 		if(al_key_down(key,ALLEGRO_KEY_RIGHT))
 		{
