@@ -30,6 +30,10 @@ class cPlayer
 	{
 		dx = otherx-x;
 		dy = othery-y;
+		if(((dx*dx)+(dy*dy))< 32*32)//collision has happened
+		{
+			
+		}
 	}
 	void run(ALLEGRO_KEYBOARD_STATE *key)
 	{
