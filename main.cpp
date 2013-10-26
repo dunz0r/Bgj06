@@ -41,7 +41,6 @@ class cRainbow
 		for (int i = 0; i < 7; i++) {
 			al_draw_ellipse(cx, cy+(i*16), rx, ry, color[i], thickness);
 		}
-		al_draw_filled_rectangle(1, 220, 40, 30, al_map_rgb(255,0,0));
 	}
 };
 int main(int argc, char **argv )
