@@ -64,6 +64,11 @@ class cLevel
 					blocknum ++;
 				}
 			}
+			//run the blocks
+			for(int i = 0; i < blocknum;i++)
+			{
+				oBlock[i].run();
+			}
 		}
 		void draw()
 		{
