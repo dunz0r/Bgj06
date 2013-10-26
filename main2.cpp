@@ -84,8 +84,11 @@ int main(int argc, char **argv )
     //SAMPLES
     
     
-    ///OBJECTs
+    ///OBJECTS
+    cPlayer oPlayer;
+    oPlayer.create();
     
+    ////
     al_clear_to_color(al_map_rgb(0,0,0));
     al_flip_display();
     al_register_event_source(event_queue, al_get_display_event_source(display));
@@ -108,6 +111,7 @@ int main(int argc, char **argv )
 			//Runny tunny
 			{
 		
+				oPlayer.run();
 				if(al_key_down(&key,ALLEGRO_KEY_ESCAPE))
 				{
 					return 0;
