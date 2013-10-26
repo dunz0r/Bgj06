@@ -190,7 +190,7 @@ int main(int argc, char **argv )
 			
 			//Runny tunny
 			{
-		
+				oLevel.makeLevel();
 				oPlayer.run(&key);
 				if(al_key_down(&key,ALLEGRO_KEY_ESCAPE))
 				{
