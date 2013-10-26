@@ -127,11 +127,11 @@ class cPlayer
 		}
 		if(al_key_down(key,ALLEGRO_KEY_RIGHT))
 		{
-			hspeed = 2;
+			hspeed = levelSpeed;
 		}
 		if(al_key_down(key,ALLEGRO_KEY_LEFT))
 		{
-			hspeed = -2;
+			hspeed = -levelSpeed;
 		}	
 		if(al_key_down(key,ALLEGRO_KEY_DOWN))
 		{
