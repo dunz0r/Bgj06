@@ -14,6 +14,10 @@
 const float fps = 60;
 
 class cRainbow
+{
+	public:
+		float cx,cy,r,startTheta,deltaTheta,thickness;
+		ALLEGRO_COLOR color;
 int main(int argc, char **argv )
 {
 	//inits
