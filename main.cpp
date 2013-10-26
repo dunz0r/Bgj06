@@ -20,7 +20,7 @@ class cRainbow
 	public:
 		float cx,cy,rx,ry,thickness;
 		ALLEGRO_COLOR color[7] = { al_map_rgb(0,0,0) };
-	void create(float cy)
+	void create(float cy, float cx)
 	{
 		color[0] = al_map_rgb(255,0,0);
 		color[1] = al_map_rgb(255,127,0);
@@ -29,7 +29,6 @@ class cRainbow
 		color[4] = al_map_rgb(0,0,255);
 		color[5] = al_map_rgb(75,0,130);
 		color[6] = al_map_rgb(143,0,255);
-		cx = 512;
 		rx = 20.0;
 		ry = 80.0;
 		thickness = 18.0;
@@ -79,7 +78,7 @@ int main(int argc, char **argv )
 	al_reserve_samples(1000);
 
 	cRainbow oRainbow;
-	oRainbow.create(200);
+	oRainbow.create(200,500);
 	//RUN
 	while(1<2)
 	{
