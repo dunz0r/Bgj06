@@ -32,7 +32,7 @@ class cRainbow
 		rx = DISPLAY_WIDTH/2.0;
 		ry = 250.0;
 		cx = DISPLAY_WIDTH/2;
-		cy = 240;
+		cy = 260;
 		thickness = 18.0;
 	}
 
